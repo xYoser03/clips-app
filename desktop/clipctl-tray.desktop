@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=clipctl Tray
+GenericName=Instant Replay Tray
+Comment=Icono en segundo plano de Instant Replay para Hyprland
+Exec=/home/yoserad/.local/bin/clipctl tray
+Icon=media-record
+Terminal=false
+Type=Application
+Categories=AudioVideo;Recorder;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

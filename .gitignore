@@ -1,0 +1,12 @@
+# Editor files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/temp
+*.o
+*.log

@@ -1,0 +1,22 @@
+[Unit]
+Description=clipctl - Instant Replay Circular Buffer Daemon (Hyprland + NVENC)
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/clipctl daemon
+Restart=on-failure
+RestartSec=2s
+
+# Resource prioritization (minimum impact on gaming)
+Nice=5
+IOSchedulingClass=idle
+KillMode=mixed
+TimeoutStopSec=3s
+
+# Environment passthrough
+PassEnvironment=WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_RUNTIME_DIR XDG_SESSION_TYPE
+
+[Install]
+WantedBy=graphical-session.target

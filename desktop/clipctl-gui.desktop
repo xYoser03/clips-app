@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=clipctl - Instant Replay
+GenericName=Screen Recorder & Instant Replay
+Comment=Configuración de Instant Replay ultraligero (NVIDIA NVENC + Hyprland)
+Exec=/home/yoserad/.local/bin/clipctl gui
+Icon=video-x-generic
+Terminal=false
+Type=Application
+Categories=AudioVideo;Recorder;Settings;
+StartupNotify=true
+StartupWMClass=com.clipctl.gui
+Keywords=replay;shadowplay;nvidia;nvenc;hyprland;clip;record;

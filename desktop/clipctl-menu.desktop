@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=clipctl (Menú Rápido)
+GenericName=Instant Replay Menu
+Comment=Menú emergente rápido para guardar clips, pausar o configurar
+Exec=/home/yoserad/.local/bin/clipctl menu
+Icon=video-x-generic
+Terminal=false
+Type=Application
+Categories=AudioVideo;Recorder;
+StartupNotify=true
+Keywords=replay;shadowplay;clip;guardar;menu;
